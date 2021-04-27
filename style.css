@@ -156,3 +156,13 @@ h2{
     text-align: right;
     padding-bottom: 10px;
 }
+.footer
+{
+    text-align: center;
+    font-size: 15px;
+}
+
+#hide, #hide_flex
+{
+    display: none;
+}
