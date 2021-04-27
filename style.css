@@ -31,7 +31,9 @@ h2{
     font-family: "Bangers", sans-serif;
 }
 
-/* @media only screen and (max-width : 400px) */
+ @media only screen and (max-width : 400px) {
+     
+ }
 
 .space{
     padding: 20px;
