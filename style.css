@@ -13,3 +13,10 @@
     color: black;
     position: inherit;
 }
+.intro{
+    text-align: center;
+    font-weight:bolder;
+    padding-bottom: 100px;  
+    font-family: "Caveat", sans-serif;
+    font-size: 40px; 
+}
