@@ -76,3 +76,17 @@ h2{
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
 }
+.flip-box-front {
+    color: white;
+    background-image: url("../assets/images/smart_watch.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.flip-box-back {
+    color: white;
+    transform: rotateY(180deg);
+    background-image: url("../assets/images/galaxy_watch_active.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
