@@ -1,0 +1,15 @@
+.nav1{
+    background-color: white;
+    padding: 20px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+.nav1 a{
+    text-align: center;
+    text-emphasis-color: black;
+    align-items: center;
+    padding-right: 20px;
+    float: none;
+    color: black;
+    position: inherit;
+}
