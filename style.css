@@ -137,3 +137,11 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.apple{
+    text-align: left;
+    align-items: left;
+    background-image: url("../assets/images/apple.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+}
