@@ -27,3 +27,21 @@
     font-family: "Bangers" , sans-serif;
     font-size: 100px;
 }
+h2{
+    font-family: "Bangers", sans-serif;
+}
+
+/* @media only screen and (max-width : 400px) */
+
+.space{
+    padding: 20px;
+}
+.samsung{
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-image: url("../assets/images/samsung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px;
+}
