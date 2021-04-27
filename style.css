@@ -145,3 +145,14 @@ h2{
     background-size: cover;
     padding: 250px;
 }
+.tablet
+{
+    background-image: url("../assets/images/tablet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 250px;
+    width: 600px;
+    height: 500px;
+    text-align: right;
+    padding-bottom: 10px;
+}
