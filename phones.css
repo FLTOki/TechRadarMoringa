@@ -1,0 +1,40 @@
+.header
+{
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+.section_2
+{
+    text-align: center;
+    align-items: center;
+}
+.row
+{
+    padding-top: 30px;
+    align-items: center;
+}
+h2, p
+{
+    text-align: center;
+    /* padding: 15px; */
+}
+
+#hide_first, #hide_second, #hide_third, #hide_fourth, #hide_fifth, #hide_sixth
+{
+    display: none;
+    align-items: center;
+    text-align: center;
+}
+
+#show_first, #show_second, #show_third, #show_fourth, #show_fifth, #show_sixth
+{
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+}
+
+#hide_second[data-content]
+{
+    display: none;
+}
