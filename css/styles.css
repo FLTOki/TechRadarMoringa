@@ -184,6 +184,11 @@ h2
     padding: 250px;
 }
 
+/* .apple h2
+{
+    text-align: left;
+} */
+
 .tablet
 {
     background-image: url("../assets/images/tablet.png");
@@ -209,7 +214,7 @@ h2
 
 .footerEdit
 {
-  margin-left: 30%;
+    margin-left: 30%;
   padding: 25px;
   display: flex;
   align-items: center;
