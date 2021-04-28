@@ -74,4 +74,10 @@ $(document).ready(function() {
     $('[data-toggle="popover"]').popover();
 
     //SAMSUNG REVIEW SECTION END
+
+    //NEWSLETTER MODAL
+    $("#submit").click(function()
+    {
+      alert("Your information was saved. Thank you");
+    });
 });
