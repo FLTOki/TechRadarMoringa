@@ -12,3 +12,46 @@
 {
     color: white;
 }
+
+h2
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#show_items
+{
+   padding-left: 30px;
+}
+
+#hide_mac
+{
+    display: none;
+}
+
+#row
+{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.airmax_1
+{
+    background-image: url("../assets/images/airpods_max.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 150px;
+}
+
+.airmax_2
+{
+    background-image: url("../assets/images/AirPods-Max-black.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px;
+}
+
+.clickable, .clickable_2
+{
+    display: none;
+}
