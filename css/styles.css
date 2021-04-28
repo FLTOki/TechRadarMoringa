@@ -183,7 +183,6 @@ h2
     background-size: cover;
     padding: 250px;
 }
-
 .tablet
 {
     background-image: url("../assets/images/tablet.png");
@@ -195,7 +194,6 @@ h2
     text-align: right;
     padding-bottom: 10px;
 }
-
 .footer
 {
     text-align: center;
