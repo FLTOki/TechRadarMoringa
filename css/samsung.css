@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+.header
+{
+    align-items: center;
+    text-align: center;
+}
+
 .row
 {
     padding-top: 30px;
