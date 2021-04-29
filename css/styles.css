@@ -188,6 +188,7 @@ h2
     background-size: cover;
     padding: 250px;
 }
+
 .tablet
 {
     background-image: url("../assets/images/tablet.png");
@@ -199,10 +200,19 @@ h2
     text-align: right;
     padding-bottom: 10px;
 }
+
 .footer
 {
     text-align: center;
     font-size: 15px;
+}
+.footerEdit
+{
+margin-left: 30%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #hide, #hide_flex
