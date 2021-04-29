@@ -37,6 +37,7 @@ h2, p
 {
     display: none;
 }
+<<<<<<< HEAD
 .footerEdit
 {
   
@@ -47,3 +48,10 @@ h2, p
   text-align: center;
 }
 
+=======
+
+.comment-6
+{
+    display: none;
+}
+>>>>>>> 73ca9b17c6672bf1abac6f19255e4f055886b5d1
