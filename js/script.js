@@ -80,4 +80,33 @@ $(document).ready(function() {
     {
       alert("Your information was saved. Thank you");
     });
+
+
+  function Comment(itemName, comment) {
+    this.itemName = itemName;
+    this.comment = comment;
+  }
+
+
+    $('form#commentForm').submit(function(event)
+    {
+      event.preventDefault();
+
+      var comment = $("input#comment").val();
+      var itemName = $("input#itemName").val();
+
+      var newComment = new Comment(itemName, comment);
+    
+      comment.forEach(newComment => {
+        $("h3#name").text(itemName);
+        $("p#comment").text(comment);
+      });
+
+      $("h3#name").text(itemName);
+      $("p#comment").text(comment);
+      alert("comment saved");
+
+      itemName.val("");
+      comment.val("");
+    });
 });
