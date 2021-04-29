@@ -201,8 +201,30 @@ h2
     text-align: center;
     font-size: 15px;
 }
+<<<<<<< HEAD
+=======
+.footerEdit
+{
+margin-left: 30%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+>>>>>>> ce4d5f8852758f9595f927e201f51a307190d23f
 
 #hide, #hide_flex
 {
     display: none;
+<<<<<<< HEAD
+=======
+}
+.footerEdit
+{
+margin-left: 30%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+>>>>>>> ce4d5f8852758f9595f927e201f51a307190d23f
 }

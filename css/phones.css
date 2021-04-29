@@ -39,9 +39,11 @@ h2, p
 }
 .footerEdit
 {
-margin-left: 30%;
+  
+  margin-left: 30%;
   padding: 5px;
   display: flex;
   align-items: center;
   text-align: center;
 }
+
