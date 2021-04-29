@@ -206,11 +206,29 @@ h2
     text-align: center;
     font-size: 15px;
 }
+.footerEdit
+{
+margin-left: 30%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 
 #hide, #hide_flex
 {
     display: none;
 }
+<<<<<<< HEAD
+.footerEdit
+{
+margin-left: 30%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+=======
 
 .footerEdit
 {
@@ -220,3 +238,4 @@ h2
   align-items: center;
   text-align: center;
 }
+>>>>>>> 73ca9b17c6672bf1abac6f19255e4f055886b5d1
