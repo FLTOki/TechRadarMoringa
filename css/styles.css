@@ -23,11 +23,14 @@
 {
     text-align: center;
     font-weight: bolder;
-    padding-bottom: 100px;  
+    /* padding-bottom: 100px;   */
     font-family: "Caveat", sans-serif;
     font-size: 40px; 
-}
- 
+    background-image: url("../assets/images/pexels-fauxels-3184460.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+} 
 
 .p_tech
 {
@@ -53,7 +56,9 @@ h2
     text-align: center;
     align-items: center;
     color: white;
-    background-image: url("../assets/images/samsung.jpg");
+    font-size: 50px;
+    font-family: "Bangers" , sans-serif;
+    background-image: url("../assets/images/securedbyknox_devices_Yaza.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 350px;
@@ -61,7 +66,7 @@ h2
 
 .watch
 {
-    background-color: black;
+    background-color:white;
     text-align: left;
     align-items: center;
     color: white;
@@ -69,7 +74,7 @@ h2
 
 .flip-box 
 {
-    background-color: black;
+    background-color: white;
     width: 680px;
     height: 600px;
     perspective: 1000px;
@@ -101,17 +106,17 @@ h2
   
 .flip-box-front 
 {
-    color: white;
-    background-image: url("../assets/images/smart_watch.jpeg");
+    color: black;
+    background-image: url("../assets/images/apple_watch_white.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
   
 .flip-box-back 
 {
-    color: white;
+    color: black;
     transform: rotateY(180deg);
-    background-image: url("../assets/images/galaxy_watch_active.jpg");
+    background-image: url("../assets/images/galaxy_watch_active2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -183,11 +188,6 @@ h2
     background-size: cover;
     padding: 250px;
 }
-
-/* .apple h2
-{
-    text-align: left;
-} */
 
 .tablet
 {
