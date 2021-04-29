@@ -92,6 +92,7 @@ $(document).ready(function() {
     {
       event.preventDefault();
 
+      var username = $("input#username").val();
       var comment = $("input#comment").val();
       var itemName = $("input#itemName").val();
 
@@ -102,8 +103,9 @@ $(document).ready(function() {
       //   $("p#comment").text(comment);
       // });
 
-      $("h3#name").text(itemName);
-      $("p#comment").text(comment);
+      $("td#username").text(username);
+      $("td#itemName").text(itemName);
+      $("td#comment").text(comment);
       alert("comment saved");
 
       itemName.val("");

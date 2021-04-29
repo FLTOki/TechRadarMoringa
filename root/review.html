@@ -15,33 +15,71 @@
 </head>
 <body>
   <div class="container">
-    <h2>Tech Radar</h2>
-    <div class="card text-center mb-5">
-      <div class="circle-image"> <img src="https://i.imgur.com/39fcglK.png" width="50"> </div> <small class="help-text mb-1 text-black-50">Help us improve</small> <span class="fw-500">Did you like our app?</span>
-      <div class="row mb-5 mt-5">
-          <div class="col-md-6"> <span class="thumb thumbs-up"><i class="fa fa-thumbs-o-up"></i></span> <small class="fw-500">Yes</small> </div>
-          <div class="col-md-6"> <span class="thumb thumbs-down"><i class="fa fa-thumbs-o-down"></i></span> <small class="fw-500">No</small> </div>
-          <div class="form">
-            <form action="" id="commentForm">
-              <div class="form-group" id="commentForm">
-                <label for="itemName">Item Name</label>
-                <input type="text" class="form-control" id="itemName" aria-describedby="commentHelp" placeholder="Enter item name" required="required">
+    <h2 style="align-items: center; text-align: center;">Tech Radar</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card text-center mb-5">
+          <div class="circle-image"> <img src="https://i.imgur.com/39fcglK.png" width="50"> </div> <small class="help-text mb-1 text-black-50">Help us improve</small> <span class="fw-500">Did you like our website?</span>
+          <div class="row mb-5 mt-5">
+              <div class="col-md-6"> <span class="thumb thumbs-up"><i class="fa fa-thumbs-o-up"></i></span> <small class="fw-500">Yes</small> </div>
+              <div class="col-md-6"> <span class="thumb thumbs-down"><i class="fa fa-thumbs-o-down"></i></span> <small class="fw-500">No</small> </div>
+              <div class="form">
+                <form action="" id="commentForm">
+                  <div class="form-group" id="commentForm">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" aria-describedby="commentHelp" placeholder="Enter username" required="required">
+                  </div>
+                  <div class="form-group" id="commentForm">
+                    <label for="itemName">Item Name</label>
+                    <input type="text" class="form-control" id="itemName" aria-describedby="commentHelp" placeholder="Enter item name" required="required">
+                  </div>
+                  <div class="form-group">
+                    <label for="comment">Please leave a comment</label>
+                    <input type="text" class="form-control" id="comment" aria-describedby="commentHelp" placeholder="Enter comment" required="required">
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-outline-primary btn-sm" id="coomentBtn">Submit</button>
+                    <a href="../index.html" class="btn btn-outline-danger btn-sm">Close</a>
+                  </div>
+                </form>
               </div>
-              <div class="form-group">
-                <label for="comment">Please leave a comment</label>
-                <input type="text" class="form-control" id="comment" aria-describedby="commentHelp" placeholder="Enter comment" required="required">
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-outline-primary btn-sm" id="coomentBtn">Submit</button>
-                <a href="../index.html" class="btn btn-outline-danger btn-sm">Close</a>
-              </div>
-            </form>
           </div>
+        </div>
       </div>
-    </div>
-    <div class="commentTable">
-      <h3 id="name"></h3>
-      <p id="comment"></p>
+      
+      
+      <div class="commentTable col-md-6">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Username</th>
+              <th scope="col">Item Name</th>
+              <th scope="col">Comment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Galxy S20+</td>
+              <td>Best device I have ever owned</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Apple Watch series 6</td>
+              <td>Great battery life and functionality</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td id="username"></td>
+              <td id="itemName"></td>
+              <td id="comment"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </body>
