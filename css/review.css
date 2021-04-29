@@ -2,6 +2,10 @@ body {
   background-color: #f7f6f6;
   padding-top: 100px;
   padding-left: 450px;
+  background-image: url("../assets/images/pexels-fauxels-3184460.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    /* padding: 200px; */
 }
 
 .card {

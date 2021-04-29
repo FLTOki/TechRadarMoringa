@@ -97,10 +97,10 @@ $(document).ready(function() {
 
       var newComment = new Comment(itemName, comment);
     
-      comment.forEach(newComment => {
-        $("h3#name").text(itemName);
-        $("p#comment").text(comment);
-      });
+      // comment.forEach(newComment => {
+      //   $("h3#name").text(itemName);
+      //   $("p#comment").text(comment);
+      // });
 
       $("h3#name").text(itemName);
       $("p#comment").text(comment);
