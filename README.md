@@ -30,8 +30,8 @@
 </p>
 
 ## Author
-Built by: Musyoki Jim.-Project lead and scrum master
-Built by: Carolyne Kyalo -
+Built by: Musyoki Jim.-Project lead and scrum master<br>
+Built by: Carolyne Kyalo -<br>
 Built by: Bernard Kibet -
 
 ## About The Project
