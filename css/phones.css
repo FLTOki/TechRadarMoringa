@@ -9,7 +9,6 @@
     text-align: center;
     align-items: center;
 }
-
 .row
 {
     padding-top: 30px;
@@ -37,8 +36,21 @@ h2, p
 {
     display: none;
 }
+<<<<<<< HEAD
+.footerEdit
+{
+  
+  margin-left: 30%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+=======
 
 .comment-6
 {
     display: none;
 }
+>>>>>>> 73ca9b17c6672bf1abac6f19255e4f055886b5d1
