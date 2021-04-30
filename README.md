@@ -1,4 +1,3 @@
-# TechRadarMoringa
 # TECH RADAR
 
 <p align="center">
