@@ -36,7 +36,7 @@ Built by: Bernard Kibet -
 
 ## About The Project
 
-<p>Oue website offeers review nad insight on new and upcoming technology and devices of all types and ranges. There is a device for every pocket and we believe our customers deserve the best. Our website only hosts top quality devices from all reputable companies around the world. If you like our work and reviews, you can subscribe to our Newsletter to get monthly information on latest and newest devices and tech available in the market. Feel free to leave a comment and review so that we can learn and improve.</p>
+<p>Our website offers review and insight on new and upcoming technology and devices of all types and ranges. There is a device for every pocket and we believe our customers deserve the best. Our website only hosts top quality devices from all reputable companies around the world. If you like our work and reviews, you can subscribe to our Newsletter to get monthly information on latest and newest devices and tech available in the market. Feel free to leave a comment and review so that we can learn and improve.</p>
 <a href="https://github.com/othneildrew/Best-README-Template">
   <img src="assets/readme_images/landing_page.png" alt="Logo" width="850" height="650">
 </a>
@@ -79,6 +79,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 * Jim Musyoki - [Email:](https://musyokijim@gmail.com)
-* Carolyne Kyalo [Email]()
+* Carolyne Kyalo [Email](https://carolyne.kyalo@student.moringaschool.com)
 * Bernard Kibet - [Email]()
 * Project Link: [Portfolio link](https://fltoki.github.io/ageProject)
