@@ -30,9 +30,9 @@
 </p>
 
 ## Author
-Built by: Musyoki Jim.-Project lead and scrum master<br>
-Built by: Carolyne Kyalo -<br>
-Built by: Bernard Kibet -
+Built by: Musyoki Jim.-Project lead and scrum master.  Apple Page. Samsung Page <br>
+Built by: Carolyne Kyalo - Landing Page. Smart-watch page<br>
+Built by: Bernard Kibet - Headphones page. Phones page
 
 ## About The Project
 
